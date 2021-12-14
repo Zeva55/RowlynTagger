@@ -34,7 +34,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Loungetagger bot'un Yardım Menyusu**\n\nKomut: /herkesitaget \n  Bu Emr-i, başqalarına cavablamağ istediyiniz mesajla birlikte işlede bilersiniz. \n`Örnek: /herkesitaget Salam!`  \nBu emr-i cavab olarağ işlede bilersiniz. cavablanan reply-e istifadeçileri tag edecek"
+  helptext = "**RowLynTagger bot'un Yardım Menyusu**\n\nKomut: /herkesitaget \n  Bu Emr-i, başqalarına cavablamağ istediyiniz mesajla birlikte işlede bilersiniz. \n`Meselen: /herkesitaget Salam!`  \nBu emr-i cavab olarağ işlede bilersiniz. cavablanan reply-e istifadeçileri tag edecek"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/loungetaggerbot?startgroup=a'),
@@ -79,7 +79,7 @@ async def mentionall(event):
       if event.chat_id not in anlik_calisan:
         await event.respond("Tag Etmek Uğurlu Şekilde Durduruldu ❌")
         return
-      if usrnum == 5:
+      if usrnum == 1:
         await client.send_message(event.chat_id, f"{usrtxt}\n\n{msg}")
         await asyncio.sleep(2)
         usrnum = 0
@@ -97,7 +97,7 @@ async def mentionall(event):
       if event.chat_id not in anlik_calisan:
         await event.respond("Tag Etmek Uğurlu Şekilde Durduruldu ❌")
         return
-      if usrnum == 5:
+      if usrnum == 1:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
         await asyncio.sleep(2)
         usrnum = 0
