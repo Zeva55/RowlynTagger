@@ -25,9 +25,9 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**LoungeTagger Bot**, Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★\nDaha fazla bilgi için **/help**'i tıklayın.",
+  await event.reply("**Rowlyn Tagger Bot**,💸 Grub Veya Kalanınızdaki İstifadeçileri Tag Ede Bilersiniz ★\nDaha Çox Melumat Üçün **/help**'emrini yazın.",
                     buttons=(
-                      [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/loungetaggerbot?startgroup=a'),
+                      [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/RowlynTagBot?startgroup=a'),
                       Button.url('🚀 Sahibim', 'https://t.me/amciROWLYN')]
                     ),
                     link_preview=False
