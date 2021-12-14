@@ -34,7 +34,7 @@ async def start(event):
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Loungetagger bot'un Yardım Menyusu**\n\nKomut: /herkesitaget \n  Bu Emr-i, başqalarına cavablamağ istediyiniz mesajla birlikte işlede bilersiniz. \n`Örnek: /herkesitaget Salam!`  \nBu emr-i cavab olarağ işlede bilersiniz. herhansi bir mesaj Bot, cavablanan reply-e istifadeçileri tag edecek"
+  helptext = "**Loungetagger bot'un Yardım Menyusu**\n\nKomut: /herkesitaget \n  Bu Emr-i, başqalarına cavablamağ istediyiniz mesajla birlikte işlede bilersiniz. \n`Örnek: /herkesitaget Salam!`  \nBu emr-i cavab olarağ işlede bilersiniz. cavablanan reply-e istifadeçileri tag edecek"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/loungetaggerbot?startgroup=a'),
@@ -44,7 +44,7 @@ async def help(event):
                    )
 
 
-@client.on(events.NewMessage(pattern="^/all ?(.*)"))
+@client.on(events.NewMessage(pattern="^/herkesitaget ?(.*)"))
 async def mentionall(event):
   global anlik_calisan
   if event.is_private:
