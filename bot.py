@@ -38,7 +38,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/loungetaggerbot?startgroup=a'),
-                      Button.url('🚀 Sahibim', 'https://t.me/amciROWLYN')]
+                      Button.url('🚀 Sahibim', 'https://t.me/RowLynFLEXXX')]
                     ),
                     link_preview=False
                    )
@@ -104,5 +104,5 @@ async def mentionall(event):
         usrtxt = ""
 
 
-print(">> Bot işleyir narahat olmayın 🚀 @amciROWLYN melumat ala bilersen <<")
+print(">> Bot işleyir narahat olmayın 🚀 @RowLynFLEXXX melumat ala bilersen <<")
 client.run_until_disconnected()
