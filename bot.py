@@ -28,7 +28,7 @@ async def start(event):
   await event.reply("**Rowlyn Tagger Bot**,💸 Grub Veya Kalanınızdaki İstifadeçileri Tag Ede Bilersiniz ★\nDaha Çox Melumat Üçün **/help**'emrini yazın.",
                     buttons=(
                       [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/RowlynTagBot?startgroup=a'),
-                      Button.url('🚀 Sahibim', 'https://t.me/amciROWLYN')]
+                      Button.url('🚀 Sahibim', 'https://t.me/RowLynFLEXXX')]
                     ),
                     link_preview=False
                    )
@@ -37,7 +37,7 @@ async def help(event):
   helptext = "**RowLynTagger bot'un Yardım Menyusu**\n\nKomut: /herkesitaget \n  Bu Emr-i, başqalarına cavablamağ istediyiniz mesajla birlikte işlede bilersiniz. \n`Meselen: /herkesitaget Salam!`  \nBu emr-i cavab olarağ işlede bilersiniz. cavablanan reply-e istifadeçileri tag edecek"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/loungetaggerbot?startgroup=a'),
+                      [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/rowlyntaggerbot?startgroup=a'),
                       Button.url('🚀 Sahibim', 'https://t.me/RowLynFLEXXX')]
                     ),
                     link_preview=False
