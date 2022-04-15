@@ -26,7 +26,7 @@ async def start(event):
   await event.reply("**Rowlyn Tagger Bot**,💸 Grub Veya Kalanınızdaki İstifadeçileri Tag Ede Bilersiniz ★\nDaha Çox Melumat Üçün **/help**'emrini yazın.",
                     buttons=(
                       [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/RowlynTaggerBot?startgroup=a'),
-                      Button.url('🚀 Sahibim', 'https://t.me/RowLynFLEXXX')]
+                      Button.url('🚀 Sahibim', 'https://t.me/Rowlyn')]
                     ),
                     link_preview=False
                    )
@@ -36,7 +36,7 @@ async def help(event):
   await event.reply(helptext,
                     buttons=(
                       [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/rowlyntaggerbot?startgroup=a'),
-                      Button.url('🚀 Sahibim', 'https://t.me/RowLynFLEXXX')]
+                      Button.url('🚀 Sahibim', 'https://t.me/Rowlyn')]
                     ),
                     link_preview=False
                    )
@@ -102,5 +102,5 @@ async def mentionall(event):
         usrtxt = ""
 
 
-print(">> Bot işleyir narahat olmayın 🚀 @RowLynFLEXXX melumat ala bilersen <<")
+print(">> Bot işleyir narahat olmayın 🚀 @Rowlyn melumat ala bilersen <<")
 client.run_until_disconnected()
