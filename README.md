@@ -1,15 +1,9 @@
-# Lounge All Bot
-_**Bu bot, gruplarda 10.000'e kadar üyeden bahsedebilir ve kanallarda 200'e kadar üyeden bahsedebilir. !**_
+# Røwlyn Tagger Bot
+_**Bu Bot Sayesinde Grubunuzdaki İstifadeçileri Tag Ede Bilersiz. !**_
 
-### 🏷 Bilgi
+### 🏷 Melumat
 - Dil: Python.
-- Telgraf Kütüphanesi: Telethon.
-- yakında javascript surumu gelcektir
+- Telgraf Kitabxanası: Telethon.
 
 ### 🚀 Deploy to heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/RowLyn/RowlynTagger)
-
-### 🎯 Krediler ve Diğer
-- [Ben](https://github.com/bodrumlubebek) bu Proje için ;)
-
-**Beni Github'dan takip etmeyi unutmayın ✌️**
