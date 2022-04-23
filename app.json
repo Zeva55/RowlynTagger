@@ -1,18 +1,18 @@
 {
-  "name": "Lounge Tagger Bot",
+  "name": "Rowlyn Tagger Bot",
   "logo":"https://telegra.ph/file/dfa517fd00b6aca5f7ac9.jpg",
-  "description": "Lounge tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
+  "description": "Rowlyn tagger bot sizin üçün istifadəçilərinizi tag edən bir botdur.",
   "env": {
     "TOKEN": {
-      "description": "bot token girin.",
+      "description": "bot tokenini yaz.",
       "value": ""
     },
     "APP_ID": {
-      "description": "@otomytelegrambot dan api hash api id alınız.",
+      "description": "@otomytelegrambot dan api hash api id al.",
       "value": ""
     },
     "API_HASH": {
-      "description": "@otomytelegrambot dan api hash api id alınız.",
+      "description": "@otomytelegrambot dan api hash api id al.",
       "value": ""
     }
   },
