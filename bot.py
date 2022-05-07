@@ -1,5 +1,5 @@
 import os, logging
-imporr asyncio
+import asyncio
 from telethon import Button
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
