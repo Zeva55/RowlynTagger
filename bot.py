@@ -103,4 +103,5 @@ async def mentionall(event):
 
 
 print(">> Bot işleyir narahat olmayın 🚀 @Rowlyn melumat ala bilersen <<")
+client.start()
 client.run_until_disconnected()
