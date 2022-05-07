@@ -35,7 +35,7 @@ async def help(event):
   helptext = "**RowLynTagger bot'un Yardım Menyusu**\n\nƏmr: /herkesitaget \n  Bu Emr-i, başqalarına cavablamağ istediyiniz mesajla birlikte işlede bilersiniz. \n`Meselen: /herkesitaget Salam!`  \nBu emr-i cavab olarağ işlede bilersiniz. cavablanan reply-e istifadeçileri tag edecek"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/rowlyntaggerbot?startgroup=a'),
+                      [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/RowlynTaggerBot?startgroup=a'),
                       Button.url('🚀 Sahibim', 'https://t.me/Rowlyn')]
                     ),
                     link_preview=False
