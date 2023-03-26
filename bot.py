@@ -23,20 +23,20 @@ async def cancel(event):
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**Rowlyn Tagger Bot**,💸 Grub Veya Kalanınızdaki İstifadeçileri Tag Ede Bilersiniz ★\nDaha Çox Melumat Üçün **/help**'emrini yazın.",
+  await event.reply("**Dizzy Tagger Bot**,💸 Grub Veya Kalanınızdaki İstifadeçileri Tag Ede Bilersiniz ★\nDaha Çox Melumat Üçün **/help**'emrini yazın.",
                     buttons=(
-                      [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/RowlynTaggerBot?startgroup=a'),
-                      Button.url('🚀 Sahibim', 'https://t.me/Rowlyn')]
+                      [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/DizzyTaggerBot?startgroup=a'),
+                      Button.url('🚀 Sahibim', 'https://t.me/ThisisYusif')]
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**RowLynTagger bot'un Yardım Menyusu**\n\nƏmr: /herkesitaget \n  Bu Emr-i, başqalarına cavablamağ istediyiniz mesajla birlikte işlede bilersiniz. \n`Meselen: /herkesitaget Salam!`  \nBu emr-i cavab olarağ işlede bilersiniz. cavablanan reply-e istifadeçileri tag edecek"
+  helptext = "**Dizzy Tagger bot'un Yardım Menyusu**\n\nƏmr: /herkesitaget \n  Bu Emr-i, başqalarına cavablamağ istediyiniz mesajla birlikte işlede bilersiniz. \n`Meselen: /herkesitaget Salam!`  \nBu emr-i cavab olarağ işlede bilersiniz. cavablanan reply-e istifadeçileri tag edecek"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/RowlynTaggerBot?startgroup=a'),
-                      Button.url('🚀 Sahibim', 'https://t.me/Rowlyn')]
+                      [Button.url('🎭 Meni Bir Gruba Elave Et', 'https://t.me/DizzyTaggerBot?startgroup=a'),
+                      Button.url('🚀 Sahibim', 'https://t.me/ThisisYusif')]
                     ),
                     link_preview=False
                    )
@@ -102,5 +102,5 @@ async def mentionall(event):
         usrtxt = ""
 
 
-print(">> Bot işleyir narahat olmayın 🚀 @Rowlyn melumat ala bilersen <<")
+print(">> Bot işleyir narahat olmayın 🚀 @ThisisYusif melumat ala bilersen <<")
 client.run_until_disconnected()
